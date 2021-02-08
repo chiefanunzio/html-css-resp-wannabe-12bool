@@ -13,6 +13,11 @@
   clear: both;
 }
 
+[class*="col-"] {
+    float: left;
+    text-align: center;
+}
+
 
 
         /* regole xs */

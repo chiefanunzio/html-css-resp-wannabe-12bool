@@ -13,13 +13,10 @@
   clear: both;
 }
 
-[class*="col-"]{
-  float: left;
-  text-align: center;
-}
+
 
         /* regole xs */
-@media all (max-width: 767px){
+@media all and (max-width: 767px){
 
   .col-xs-1 {
     width: calc((100% / 12) * 1);
@@ -120,7 +117,7 @@
 }
 
           /* regole md */
-@media all (min-width: 767px) and (max-width: 991px){
+@media all and (min-width: 767px) and (max-width: 991px){
 
   .col-md-1 {
     width: calc((100% / 12) * 1);
